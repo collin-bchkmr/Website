@@ -1,0 +1,156 @@
+@media only screen and (orientation : portrait) {    
+    .navbar {
+        font-size: 2.25vh !important;
+    }
+
+    .navbar .container a {
+        margin-left: 1.75vw !important;
+        margin-right: 1.75vw !important;
+    }
+
+    .headline {
+        font-size: 4em !important;
+        max-width: 85vw !important;
+    }
+
+    .smaller {
+        font-size: 1.25vh !important;
+    }
+
+    .tools li {
+        margin-left: 2vw !important;
+        margin-right: 2vw !important;
+    }
+
+    .tools li img{
+        filter: drop-shadow(0 0 0.75rem black) !important;
+    }
+
+
+    .blogTime {
+        font-size: 0.15em !important;
+    }
+}
+
+body {
+    background-color: #2b2b2b;
+    color: white;
+    margin: 0;
+    font-family: Inter, system-ui, sans-serif;
+}
+
+a, a:visited {
+    color: #c7c7c7;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+a:hover { color: white; }
+
+br {
+    display: block;
+    content: "";
+    margin-top: 1vh;
+}
+
+.navbar {
+    font-size: 1.25em;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.navbar .container {
+    margin: auto;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    width: fit-content;
+}
+
+.navbar .container a {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.headline {
+    margin: auto;
+    font-size: 2em;
+    width: fit-content;
+    max-width: 60vw;
+    text-align: left;
+}
+
+.gradient { 
+    background: #00b7ff;
+    background: linear-gradient(to bottom right, #00b7ff 0%, #00CF6B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.smaller {
+    font-size: 0.55em;
+}
+
+.toolsText {
+    font-size: 1.25em;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.toolsDiv {
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px;
+    background-color: #7d7d7d;
+    border-radius: 4vh;
+    margin: auto;
+
+}
+
+.tools {
+    list-style-type: none;
+    width: fit-content;
+    height: fit-content;
+    padding-top: 1.65vh;
+    padding-bottom: 1vh;
+    padding-right: 1vh;
+    padding-left: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tools li {
+    margin: auto;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    display: inline;
+}
+
+.tools li img{
+    border-radius: 1vh;
+    width: auto;
+    height: 4vh;
+    filter: drop-shadow(0 0 0.75rem black);
+    transition: .2s ease-in-out;
+}
+
+.tools li a img:hover{
+    height: 5vh;
+}
+
+.blogHeadline {
+    margin-left: 5vw;
+    margin-right: auto;
+}
+
+.blogTime {
+    font-size: 0.5em;
+    margin-left: 2vw;
+    color: grey;
+}
+
+.blog {
+    list-style-type: none;
+}
+
+.blog li {
+    margin-bottom: 2vh;
+}
